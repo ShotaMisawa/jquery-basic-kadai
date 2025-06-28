@@ -1,5 +1,3 @@
-$(function() {
-    $('.btn').on('click', function() {
-       $('[type="text"]').val( 'クリックしました！');
-    });
+$('.btn').on('click', function() {
+    $('[type="text"]').val( 'クリックしました！');
 });
